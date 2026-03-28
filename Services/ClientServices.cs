@@ -39,7 +39,7 @@ namespace Services
             {
                 int rewIndex = IndexOf(Get(firstName, lastName));
                 this[rewIndex].FirstName = firstName;
-                this[rewIndex].FirstName = firstName;
+                this[rewIndex].LastName = lastName;
                 this[rewIndex].CarRights = carRights;
 
             }

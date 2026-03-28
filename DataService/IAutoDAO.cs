@@ -8,12 +8,12 @@ namespace DataService
         void RemoveFromUnavailable(Auto auto);
         void Add(Auto auto);
         void Delete(Auto auto);
-        public Auto? GetByPassengerNumber(int passNumber);
-        public Auto? GetByReleaseYear(int releaseYear);
+        public IEnumerable<Auto> GetAllByPassengerNumber(int passNumber);
+        public IEnumerable<Auto> GetAllByReleaseYear(int releaseYear);
         public Auto? GetByRegistrationNumber(int regNumber);
-        public Auto? GetByRentalCost(int rentCost);
-        public Auto? GetByEngineCapacity(int engineCapacity);
-        public Auto? GetByMileage(int mileage);
+        public IEnumerable<Auto> GetAllByRentalCost(int rentCost);
+        public IEnumerable<Auto> GetAllByEngineCapacity(int engineCapacity);
+        public IEnumerable<Auto> GetAllByMileage(int mileage);
         int IndexOf(Auto auto);
         Auto this[int i] { get; set; }
         public IEnumerable<Auto> GetListOfAvailableCars();

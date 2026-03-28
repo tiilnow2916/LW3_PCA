@@ -23,7 +23,7 @@ namespace Services
         {
             if (rentRegistration == null)
             {
-                throw new ArgumentNullException("Reward not exists");
+                throw new ArgumentNullException("RentRegistration not exists");
             }
             rentRegistrations.Add(rentRegistration);
         }

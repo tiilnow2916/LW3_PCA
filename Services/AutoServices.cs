@@ -66,29 +66,29 @@ namespace Services
             }
         }
 
-        public Auto? GetByPassengerNumber(int passNumber)
+        public IEnumerable<Auto> GetAllByPassengerNumber(int passNumber)
         {
-            return availableAutos.Find(x => x.PassengerNumber == passNumber);
+            return availableAutos.FindAll(x => x.PassengerNumber == passNumber);
         }
-        public Auto? GetByReleaseYear(int releaseYear)
+        public IEnumerable<Auto> GetAllByReleaseYear(int releaseYear)
         {
-            return availableAutos.Find(x => x.ReleaseYear == releaseYear);
+            return availableAutos.FindAll(x => x.ReleaseYear == releaseYear);
         }
         public Auto? GetByRegistrationNumber(int regNumber)
         {
             return availableAutos.Find(x => x.RegistrationNumber == regNumber);
         }
-        public Auto? GetByRentalCost(int rentCost)
+        public IEnumerable<Auto> GetAllByRentalCost(int rentCost)
         {
-            return availableAutos.Find(x => x.RentCost == rentCost);
+            return availableAutos.FindAll(x => x.RentCost == rentCost);
         }
-        public Auto? GetByEngineCapacity(int engineCapacity)
+        public IEnumerable<Auto> GetAllByEngineCapacity(int engineCapacity)
         {
-            return availableAutos.Find(x => x.EngineCapacity == engineCapacity);
+            return availableAutos.FindAll(x => x.EngineCapacity == engineCapacity);
         }
-        public Auto? GetByMileage(int mileage)
+        public IEnumerable<Auto> GetAllByMileage(int mileage)
         {
-            return availableAutos.Find(x => x.Mileage == mileage);
+            return availableAutos.FindAll(x => x.Mileage == mileage);
         }
 
         public IEnumerable<Auto> GetListOfAvailableCars()
