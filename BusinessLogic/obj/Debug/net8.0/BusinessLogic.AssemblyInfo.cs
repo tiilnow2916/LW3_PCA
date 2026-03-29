@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Services")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("BusinessLogic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Services")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Services")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3118f6a1965f4375e1128c18201a6356b83ecf87")]
+[assembly: System.Reflection.AssemblyProductAttribute("BusinessLogic")]
+[assembly: System.Reflection.AssemblyTitleAttribute("BusinessLogic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

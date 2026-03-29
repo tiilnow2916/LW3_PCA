@@ -52,11 +52,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\germa\\source\\repos\\LW3_PCA\\Services\\Services.csproj",
-      "projectName": "Services",
-      "projectPath": "C:\\Users\\germa\\source\\repos\\LW3_PCA\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\germa\\source\\repos\\LW3_PCA\\BusinessLogic\\BusinessLogic.csproj",
+      "projectName": "BusinessLogic",
+      "projectPath": "C:\\Users\\germa\\source\\repos\\LW3_PCA\\BusinessLogic\\BusinessLogic.csproj",
       "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\germa\\source\\repos\\LW3_PCA\\Services\\obj\\",
+      "outputPath": "C:\\Users\\germa\\source\\repos\\LW3_PCA\\BusinessLogic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
