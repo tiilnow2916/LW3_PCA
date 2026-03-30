@@ -1,5 +1,4 @@
-﻿using DataService;
-using Entities;
+﻿using Entities;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -7,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Services
+namespace DataService
 {
     public class ClientServices : IClientDAO, IEnumerable<Client>
     {

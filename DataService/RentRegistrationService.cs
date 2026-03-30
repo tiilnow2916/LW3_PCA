@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using DataService;
 using Entities;
 
-namespace Services
+namespace DataService
 {
     public class RentRegistrationService : IRegistrationDAO, IEnumerable<RentRegistration>
     {

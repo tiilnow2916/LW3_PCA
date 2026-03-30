@@ -1,0 +1,16 @@
+C:\Users\germa\source\repos\LW3_PCA\DataService\bin\Debug\net8.0\DataService.deps.json
+C:\Users\germa\source\repos\LW3_PCA\DataService\bin\Debug\net8.0\DataService.dll
+C:\Users\germa\source\repos\LW3_PCA\DataService\bin\Debug\net8.0\DataService.pdb
+C:\Users\germa\source\repos\LW3_PCA\DataService\bin\Debug\net8.0\Entities.dll
+C:\Users\germa\source\repos\LW3_PCA\DataService\bin\Debug\net8.0\Entities.pdb
+C:\Users\germa\source\repos\LW3_PCA\DataService\obj\Debug\net8.0\DataService.csproj.AssemblyReference.cache
+C:\Users\germa\source\repos\LW3_PCA\DataService\obj\Debug\net8.0\DataService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\source\repos\LW3_PCA\DataService\obj\Debug\net8.0\DataService.AssemblyInfoInputs.cache
+C:\Users\germa\source\repos\LW3_PCA\DataService\obj\Debug\net8.0\DataService.AssemblyInfo.cs
+C:\Users\germa\source\repos\LW3_PCA\DataService\obj\Debug\net8.0\DataService.csproj.CoreCompileInputs.cache
+C:\Users\germa\source\repos\LW3_PCA\DataService\obj\Debug\net8.0\DataService.sourcelink.json
+C:\Users\germa\source\repos\LW3_PCA\DataService\obj\Debug\net8.0\DataServ.0A6EFA26.Up2Date
+C:\Users\germa\source\repos\LW3_PCA\DataService\obj\Debug\net8.0\DataService.dll
+C:\Users\germa\source\repos\LW3_PCA\DataService\obj\Debug\net8.0\refint\DataService.dll
+C:\Users\germa\source\repos\LW3_PCA\DataService\obj\Debug\net8.0\DataService.pdb
+C:\Users\germa\source\repos\LW3_PCA\DataService\obj\Debug\net8.0\ref\DataService.dll

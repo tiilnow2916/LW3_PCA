@@ -2,7 +2,7 @@
 using Entities;
 using System.Collections;
 
-namespace Services
+namespace DataService
 {
     public class AutoServices : IAutoDAO, IEnumerable<Auto>
     {

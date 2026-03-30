@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using DataService;
 using Entities;
-using Services;
 namespace BusinessLogic
 {
     public class RentRegistrationBL
