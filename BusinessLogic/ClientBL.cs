@@ -74,6 +74,11 @@ namespace BusinessLogic
             return clientsDAO.Get(firstName, lastName);
         }
 
+        public IEnumerable<Client> GetAllClients()
+        {
+            return (IEnumerable<Client>)clientsDAO;
+        }
+
 
         public void Edit(string firstName, string lastName, string newFirstName, string newLastName, int carRights)
         {

@@ -1,6 +1,6 @@
 ﻿using DataService;
 using Entities;
-
+    
 namespace BusinessLogic
 {
     public class AutoBL
@@ -94,6 +94,7 @@ namespace BusinessLogic
             }
 
             autosDAO.RemoveFromUnavailable(auto);
+            autosDAO.AddToAvailable(auto);
         }
 
         public void Edit(int registrationNumber, int passengerNumber, int engineCapacity,

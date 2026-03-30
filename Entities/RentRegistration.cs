@@ -11,7 +11,7 @@ namespace Entities
     {
         public int Id { get; set; }
         public DateOnly DateOfAction { get; set; }
-        public enum TypeOfAction { Rent, Refund }
+        public RentActionType TypeOfAction { get; set; }
         public Client Client { get; set; }
         public Auto Auto { get; set; }
 

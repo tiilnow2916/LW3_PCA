@@ -28,6 +28,8 @@ namespace DataService
             rentRegistrations.Add(rentRegistration);
         }
 
+        
+
         public RentRegistration? Get(int id)
         {
             return rentRegistrations.Find(x => x.Id == id);
@@ -52,9 +54,29 @@ namespace DataService
             return rentRegistrations.IndexOf(rentRegistration);
         }
 
+        
+
         IEnumerator IEnumerable.GetEnumerator()
         {
             return GetEnumerator();
         }
+        public void RegisterRent(Auto auto, Client client)
+        {
+            throw new NotImplementedException();
+        }
+        public void RegisterReturn(Auto auto, Client client)
+        {
+            throw new NotImplementedException();
+        }
+        public int GenerateNewId()
+        {
+            return rentRegistrations.Any() ? rentRegistrations.Max(r => r.Id) + 1 : 1;
+        }
+
+        public IEnumerable<RentRegistration> GetAllRegistrations()
+        {
+            return rentRegistrations;
+        }
+
     }
 }
